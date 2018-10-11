@@ -10,7 +10,6 @@ namespace SweepStakes
     {
         static void Main(string[] args)
         {
-
-        }
+        }  
     }
 }

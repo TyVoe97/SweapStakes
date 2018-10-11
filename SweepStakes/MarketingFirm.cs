@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SweepStakes
 {
-    class Constant
+    class MarketingFirm
     {
     }
 }
