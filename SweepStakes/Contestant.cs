@@ -15,11 +15,15 @@ namespace SweepStakes
         public string email;
         public int regNums;
 
-        public Contestant(string _firstName, string _lastName, string _email)
+        public Contestant()
         {
-            _firstName = UserInterface.GetInfo("Please enter your First Name");
-            _lastName = UserInterface.GetInfo("Please enter your Last Name");
-            _email = UserInterface.GetInfo(" Please enter your Email");
+        }
+
+        public Contestant(string firstName, string lastName, string email)
+        {
+            firstName = UserInterface.GetInfo("Please enter your First Name");
+            lastName = UserInterface.GetInfo("Please enter your Last Name");
+            email = UserInterface.GetInfo(" Please enter your Email");
             
 
         }

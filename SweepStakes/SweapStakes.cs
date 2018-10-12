@@ -13,10 +13,18 @@ namespace SweepStakes
         
         public SweapStakes(string name)
         {
-           
+            Contestant contestant = new Contestant()
+            {
+                
+            };
             
+
             
-           
+               
+            
+
+
+
         }
         public void RegisteredContestant(Contestant contestant)
         {
@@ -34,11 +42,10 @@ namespace SweepStakes
         }
         public void PrintContestantInfo(Contestant contestant)
         {
-            contestant.firstName;
-            contestant.lastName;
-            contestant.email;
-            contestant.regNums;
-            
+            Console.WriteLine( contestant.firstName);
+            Console.WriteLine(contestant.lastName);
+            Console.WriteLine(contestant.email);
+            Console.WriteLine( contestant.regNums);
         }
     }
 }
